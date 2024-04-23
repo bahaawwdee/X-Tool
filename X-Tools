@@ -18,7 +18,7 @@ read  -p " ﺭﺍﺮﻤﺘﺳﻼﻟ ﺮﺘﻧﺍ ﻂﻐﺿﺍ "
 echo" ﺕﺎﻴﺳﺎﺳﻻﺍ ﺖﻴﺒﺜﺗ ﻥﻻﺍ ﻱﺮﺠﻳ....."
 termux-setup-storage
 pkg update -y && pkg upgrade -y && pkg install python -y && pkg install git -y
-
+python ts.py
 echo "ﺕﺎﺒﻠﻄﺘﻤﻟﺍ ﺖﻴﺒﺜﺗ ﻢﺘﻳ"
 sleep 5
 echo" ﺕﺎﻴﺳﺎﺳﻻﺍ ﺖﻴﺒﺜﺗ ﻝﺎﻤﻛﻷ ﻝﻮﺧﺪﻟﺍ ﻞﻴﺠﺴﺗ ﺀﺎﺟﺮﻟﺍ "
