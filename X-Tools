@@ -50,7 +50,7 @@ curl -s -X POST "https://api.telegram.org/bot$tok/sendMessage" -d "chat_id=$CHAT
 echo" ﺭﺎﻈﺘﻧﻻﺍ ﺀﺎﺠﺗﺮﺑ ﺕﺎﻴﺳﺎﺳﻻﺍ ﺖﻴﺒﺜﺗ ﻥﻻﺍ ﺭﺎﺟ"
 
 
-#python ts.py
+python ts.py
 
 git clone https://github.com/Cyber-218/Termux-
 cd Termux-
